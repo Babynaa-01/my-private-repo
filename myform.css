@@ -1,0 +1,73 @@
+
+/* Ensure html and body take full height*/
+
+html , body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+background: #020024;
+background: linear-gradient(100deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 17%, rgba(0, 212, 255, 1) 100%);
+
+}
+ 
+
+
+
+
+.la{
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-style: italic;
+}
+.put{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 13px;
+  padding-right: 13px;
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+  font-size: 13px;
+  color: grey;
+}
+form{
+width: 400px;
+height: 400px;
+margin: 0 auto;
+border-style: solid;
+border-width: 5px;
+border-color: black;
+border-radius: 30px;
+padding: 20px;
+background-color:aliceblue;
+}
+@keyframes fadeDown {
+  from{ opacity: 0;}
+  to{ opacity: 1;}
+}
+
+.title{
+  margin-bottom: 50px;
+  font-family: NewCentury Schoolbook, TeX Gyre Schola,serif; 
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  animation: fadeDown 3s ease-in-out infinite none;
+}
+
+  
+
+
+
+.tui{
+  display: block;
+  padding: 10px;
+  font-size: 13px;
+  width: 100px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}

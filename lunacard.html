@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Luna's Card </title>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&family=Nunito:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      
+        html , body{
+          height: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-family: 'Nunito', sans-serif;
+          background: linear-gradient(135deg, #fce4f3 0%, #e8d5f5 40%, #d0e8ff 100%); 
+          overflow: hidden;
+        }
+        .blob{
+          position: fixed;
+          border-radius: 50%;
+          filter: blur(5px);
+          opacity: 0.4;
+          pointer-events: none;
+        }
+        .blob-1{ width: 250px; height:250px; background: #f9a8d4;  top: -80px; left: -80px;}
+        .blob-2{ width: 250px; height: 250px; background: #c4b5fd; bottom: -60px; right: -60px;}
+
+        .card{
+          background:rgba(255,255,255,0.55) ;
+          border: 1px solid rgba(255,255,255,0.8) ;
+          border-radius: 24px;
+          padding: 36px 40px;
+          max-width: 400px;
+          width: 90%;
+          text-align: center;
+          position: relative;
+          z-index: 1;
+        }
+        .avatar{
+          width: 72px;
+          height: 72px;
+          border-radius: 70px;
+          background: linear-gradient(135deg, #f9a8d4, #c4b5fd);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 34px;
+          margin: 0 auto 16px;
+          
+        }
+        .name{
+          font-family: 'Quicksand', sans-serif;
+          font-weight: 700;
+          font-size: 26px;
+          background: linear-gradient(90deg, #c026d3, #7c3aed);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          margin-bottom: 6px;
+        }
+        .tagline{
+          font-size: 15px;
+          color:#9d6fa0 ;
+          letter-spacing: normal;
+          margin-bottom: 20px;
+        }
+        .divider{
+          height: 1px;
+          background: linear-gradient(90deg, transparent, rgba(180,120,220,0.4), transparent );
+          margin-bottom: 20px;
+        }
+        .bio{
+          font-size: 15px;
+          color: #6b5b7e;
+          line-height: 1.8;
+          margin-bottom: 22px;
+        }
+        .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      justify-content: center;
+      margin-bottom: 24px;
+    }
+
+    .tag {
+      font-size: 12px;
+      padding: 5px 12px;
+      border-radius: 20px;
+    }
+    .tag-pink  { background: rgba(240,171,252,0.3); color: #a21caf; border: 1px solid rgba(240,171,252,0.5); }
+    .tag-purple{ background: rgba(196,181,253,0.3); color: #6d28d9; border: 1px solid rgba(196,181,253,0.5); }
+    .tag-blue  { background: rgba(147,197,253,0.3); color: #1d4ed8; border: 1px solid rgba(147,197,253,0.5); }
+
+    .btn {
+      background: linear-gradient(135deg, #e879f9, #818cf8);
+      color: white;
+      border: none;
+      padding: 12px 32px;
+      border-radius: 30px;
+      font-family: 'Nunito', sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(192, 132, 252, 0.4);
+    }
+
+
+
+
+
+
+    </style>
+  </head>
+  <body>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+
+    <div class="card">
+    <div class="avatar">🌸</div>
+    <h1 class="name">Hello, Im Luna</h1>
+    <p class="tagline"> dreamer &#183; stargazer &#183; tealover </p>
+    <div class="divider "></div>
+    <p class="bio">A little card built with pure HTML & CSS — no frameworks, just vibes and gradient magic.</p>
+    <div class="tags">
+      <span class="tag tag-pink">✨ creative </span>
+      <span class="tag tag-purple"> 🌙 chill</span>
+      <span class="tag tag-blue"> 💫 soft</span>
+    </div>
+    <button class="btn">say hello 💌 </button>
+    </div>
+  </body>
+</html>

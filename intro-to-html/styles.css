@@ -1,0 +1,87 @@
+
+   p {
+      font-family: Arial; 
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+    .video-title{
+      
+      font-size: 18px; 
+      font-weight: bold;
+      width: 280px;
+      line-height: 24px;
+      margin-bottom: 5px; 
+    }
+    .video-stats{
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 20px;
+    }
+    .video-author{
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 15px;
+    }
+    .video-description{
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 100px;
+      width: 240px;
+      line-height: 20px;
+    }
+    .apple-text{
+      margin-bottom: 50px;
+      font-size: 14px;
+      background-color: rgb(227, 65, 64);
+      padding-top: 18px;
+      padding-bottom: 18px;
+      color: white;
+      text-align: center;
+    }
+    .example{
+      cursor: pointer;
+      margin-left: 12px;
+      transition: all 0.15s;
+    }
+
+    .example:hover{
+      text-decoration: underline;
+      
+    }
+    .video-logo{
+      font-family: "Apple Color Emoji";
+      font-size: 20px;
+      color: gray;
+    }
+    .shop{
+      font-size: 25px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    .see{
+      font-size: 17px;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    .learn{
+      font-size: 14px;
+      margin-bottom: 50px;
+      text-align: center;
+      color: rgb(72, 72, 221);
+    }
+    .sales{
+      color: rgb(227, 65, 64);
+      font-style: italic;
+      font-size: 12px;}
+
+      .get-button{
+        background-color: rgb(20, 117, 13);
+        color: white;
+        border: none; 
+        border-radius: 8px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 18px;
+        padding-right: 18px;}
+        
